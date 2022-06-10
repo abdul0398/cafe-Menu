@@ -1,0 +1,9 @@
+body{
+    background-image: url('coffee-bean.jpg') ;
+}
+section{
+    background-color: bisque;
+    max-width: 500px;
+    height: 400px;
+    align-self: center;
+}
