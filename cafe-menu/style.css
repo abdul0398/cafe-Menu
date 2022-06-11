@@ -1,10 +1,52 @@
 body{
-    background-image: url('coffee-bean.jpg') ;
+    background-image: url('assests/coffee-bean.jpg') ;
     width: 100%;
 }
 section{
-    background-color: bisque;
+    background-color: burlywood;
     max-width: 500px;
     height: max-content;
     margin: auto;
+}
+h1{
+    font-size: 40px;
+}
+hr{
+    border-color: brown;
+    background-color: brown;
+    height: 2px;
+    width: 400px;
+}
+h2,h1,p{
+    text-align:center;
+
+}
+h1,h2{
+    font-family: Impact,sans-serif;
+}
+.coffee{
+    text-align: center;
+}
+.flavour{
+    width: 100%;
+    margin-left: 15px;
+}
+.item p{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dish{
+    text-align: left;
+    width: 75%;
+    padding-left:20px;
+}
+.price{
+    text-align: right;
+    margin-right: 10px
+}
+.pric{
+    display: inline-block;
+    padding-left: 10px;
 }
